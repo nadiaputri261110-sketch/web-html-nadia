@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <tittle>Form Pendaftaran</tittle>
+    </head>
+    <body>
+        <h2>Form Pendaftaran</h2>
+        <form>
+            <table>
+                <tr>
+                <td><label>Nama Lengkap</label></td>
+                <td>:</td>
+                <td><input type="text" required/><br></td>
+                </tr>
+                <tr>
+                    <td><label>No HP</label></td>
+                    <td>:</td>
+                    <td><input type="number" required placeholder="Masukan Angka"/><br></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td>:</td>
+                    <td><input type="email" required placeholder="Masukan Email"/><br></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td>:</td>
+                    <td><input type="password"><br></td>
+                </tr>
+                <tr>
+                    <td><label>Tanggal Lahir</label></td>
+                    <td>:</td>
+                    <td><input type="date"/><br></td>
+                </tr>
+                <tr>
+                    <td><label>Jenis Kelamin</label></td>
+                    <td>:</td>
+                    <td> <input type="radio" name="JenisKelamin" value="Laki-laki">Laki-laki</td>
+                    <td><input type="radio" name="JenisKelamin" value="Perempuan">Perempuan<br></td>
+                </tr>
+                <tr>
+                    <td> <label>Hobi</label></td>
+                    <td><input type="checkbox" name="hobi" value="Membaca"><br></td>
+                    <td><input type="checkbox" name="hobi" value="Menulis"><br></td>
+                    <td><input type="checkbox" name="hobi" value="Olahraga"><br></td>
+                    <td><input type="checkbox" name="hobi" value="Seni Tari"><br></td>
+                </tr>
+                <tr>
+                    <td><label>Alamat</label></td>
+                    <td><textarea placeholder="Masukan Alamat"></textarea><br></td>
+                </tr>
+                <tr>
+                    <td><label>Jurusan</label>
+                    <select id="jurusan" name="jurusan">
+                    <option value="rpl">RPL</option>
+                    <option value="tkj">TKJ</option>
+                    <option value="pg">PG</option>
+                    </select></td>
+                </tr>
+            </select>   
+            <tr>
+                <td><label>Foto</label></td>
+                <td><input type="file"></td>
+                <td><input type="submit"></td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>
